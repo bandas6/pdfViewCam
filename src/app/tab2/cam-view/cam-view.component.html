@@ -1,0 +1,45 @@
+<video #videoElement autoplay></video>
+<ion-row class="contenedorAccionesCamara">
+  <ion-col size="4">
+  </ion-col>
+  <ion-col size="4">
+    <div class="cameraButton" (click)="takePhoto()">
+      <ion-icon name="radio-button-on"></ion-icon>
+    </div>
+  </ion-col>
+  <ion-col size="4">
+  </ion-col>
+  <ion-col size="12">
+    <div *ngIf="photo">
+      <h2>Photo</h2>
+      <img [src]="photo.webPath" *ngIf="photo.webPath" />
+    </div>
+    <div  *ngIf="photo">
+      <h2>Processed Image</h2>
+      <canvas id="outputCanvas"></canvas>
+    </div>
+  </ion-col>
+</ion-row>
+
+<ion-fab *ngIf="extractedText" (click)="verInfoPdf()">
+  <ion-fab-button class="fa_principal btn--wiggle" >
+    <ion-icon name="notifications-outline"></ion-icon>
+  </ion-fab-button>
+  <!-- <ion-popover trigger="click-trigger" triggerAction="click">
+    <ng-template>
+      <ion-content class="ion-padding">
+        <ion-text class="text_info_reto">
+          <p>Agrega nuevos libros a tu colección</p>
+        </ion-text>
+
+        <button type="submit" class="btn boton_principal boton_popover" >
+          <ion-icon *ngIf="!agregandoLibro" name="return-up-forward-outline"></ion-icon>
+          <ion-text class="validacion_spinner" *ngIf="agregandoLibro">
+            <ion-text>Cargando</ion-text>
+            <ion-spinner class="spinner_ingresando" name="crescent"></ion-spinner>
+          </ion-text>
+        </button>
+      </ion-content>
+    </ng-template>
+  </ion-popover> -->
+</ion-fab>

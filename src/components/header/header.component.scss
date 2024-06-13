@@ -1,0 +1,304 @@
+ion-img.hydrated {
+    width: 2.9rem;
+}
+
+ion-text.iniciales.hydrated {
+    color: white;
+}
+
+* {
+    color: var(--textos);
+}
+
+// .menu_icon {
+//     color: var(--lineas) !important;
+// }
+
+.img_header {
+    border-radius: 2rem;
+    margin-right: 1rem;
+}
+
+.menu_img {
+    width: 10.9rem !important;
+    border-radius: 5rem;
+
+    img {}
+}
+
+ion-toolbar {
+    background: transparent !important;
+    --background: transparent !important;
+}
+
+.titulo_cabezera {
+    display: inline-flex;
+    padding: 1rem 0.5rem;
+    width: 50%;
+    margin-left: 0.5rem;
+}
+
+.avatar {
+    display: flex;
+    justify-content: center;
+
+}
+
+ion-buttons#main {
+    display: flex;
+}
+
+ion-back-button {
+    color: white;
+}
+
+ion-title.title-default.hydrated {
+    padding: 0;
+}
+
+ion-icon.hydrated {
+    padding: 0 0.5rem;
+    font-size: 3.1rem !important;
+    color: var(--textos);
+}
+
+ion-title {
+    padding: 0;
+    width: auto;
+    font-weight: bold;
+    font-size: 1.3rem;
+    font-family: "Ubuntu";
+    color: var(--textos);
+}
+
+.titulo_dos {
+    display: flex;
+    width: auto;
+    margin: auto;
+}
+
+.titulo_desplazable {
+    // color: white !important;
+    font-size: 1.9rem;
+    margin: 1rem 2rem;
+}
+
+ion-list.list-list-inset.hydrated {
+    margin: 0;
+    padding: 0;
+}
+
+.contenedor_perfilAvatar {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+#perfil {
+    height: 100%;
+    width: 100%;
+}
+
+.dropdown-menu.show {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute !important;
+    top: -8px !important;
+    border: 1px solid rgb(197, 197, 197);
+    box-shadow: 0 0px 4px rgb(0 0 0 / 10%);
+}
+
+#perfil .alt_avatar {
+    width: 2.438rem;
+    height: 5.838rem;
+    background-color: var(--principal);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 1.25rem;
+}
+
+
+div#navbarDropdown {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+
+// .dropdown-menu.dropdown-menu-down {
+
+// }
+
+// ion-col.nombre_usuario.hydrated {
+
+// }
+
+.ion-padding {
+    --padding-start: 5px !important;
+    --padding-end: 5px !important;
+    padding-right: 5px !important;
+    padding-top: 5px !important;
+
+}
+
+ion-list-header.hydrated {
+    font-size: 1.4rem;
+    background: none;
+    color: white;
+    margin-top: 1rem;
+}
+
+ion-list#inbox-list {
+    background: none;
+    color: white;
+    padding-top: 4rem;
+}
+
+ion-text.hydrated {
+    color: white;
+}
+
+
+ion-content.ion-padding.content-ltr.hydrated {
+    --background: var(--principal);
+}
+
+ion-list.ios.list-ios.hydrated.list-md {
+    padding: 0;
+    margin: 0;
+}
+
+ion-list {
+    background: transparent !important;
+}
+
+ion-item.item-has-start-slot.item.ios.item-fill-none.in-list.hydrated.item-label.ion-activatable.ion-focusable {
+    --background: none;
+    width: 112%;
+}
+
+ion-label {
+    color: white !important;
+}
+
+ion-toolbar.toolbar-title-default.ion-color.ion-color-tertiary.in-toolbar.hydrated {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.header-md::after {
+    display: none;
+}
+
+.toogle_tolbar {
+    --background: transparent !important;
+}
+
+ion-item {
+    --border-color: transparent;
+}
+
+ion-item {
+    display: flex;
+    height: 3.2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+ion-col.dropdown-menu.dropdown-menu-down.hydrated {
+    text-align: center;
+}
+
+.pie_pagina {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    flex-direction: column;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    padding: 2.5rem 0rem;
+
+    ion-text {
+        width: 90%;
+
+        p {
+            text-align: center;
+            --color: var(--textos);
+            font-size: 14px;
+        }
+    }
+}
+
+.pie_pagina .version_aplicacion {
+    font-family: "Ubuntu";
+    font-weight: medium;
+    font-size: 1rem;
+    --color: var(--textos);
+    text-align: center;
+    margin-top: 0.5rem;
+}
+
+ion-header.contenedor_drowHeader {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.toolbar_global,
+.header_global {
+    background: var(--principal);
+    padding: 0.1rem 0rem;
+}
+
+.avatar.avatar_header {
+    position: relative;
+    left: 1.3rem;
+    width: 3rem;
+    height: 100%;
+}
+
+ion-col.alt_avatar.avatar_content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ion-text.iniciales {
+    background-color: var(--principal);
+    border-radius: 50%;
+    color: white;
+    font-size: 1.2rem;
+    padding: 0.7rem;
+}
+
+.avatar_header {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 4rem !important;
+    height: 4rem !important;
+    left: 1rem;
+}
+
+ion-col.alt_avatar.avatar_head {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+ion-text.iniciales.inicial_header {
+    display: inline-flex;
+    padding: 0.7rem 0.55rem;
+    width: 2.8rem;
+    justify-content: center;
+    align-items: center;
+}

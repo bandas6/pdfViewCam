@@ -1,0 +1,20 @@
+<ion-header mode="md" lang="es" class="header_global" [translucent]="true">
+
+  <ion-toolbar class="toolbar_global">
+
+    <div mode="md" class="titulo_cabezera" slot="start">
+      <!-- <ion-img mode="md" src="../../../assets/imagenes/logo.svg"></ion-img> -->
+      <ion-title mode="md" lang="es">{{titulo || "Cam View Pdf"}}</ion-title>
+    </div>
+
+    <ion-buttons id="main" mode="md" slot="end">
+      <ion-col *ngIf="usuario" class="avatar_header">
+        <img class="img_header" *ngIf="usuario.ruta_foto" id="foto" [src]="usuario.ruta_foto" alt="">
+      </ion-col>
+      <ion-icon class="menu_icon" (click)="openFirst()" mode="md" name="person-circle"></ion-icon>
+    </ion-buttons>
+
+  </ion-toolbar>
+
+</ion-header>
+

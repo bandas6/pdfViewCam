@@ -1,0 +1,31 @@
+ion-content {
+    text-align: center;
+    .cerrar {
+        position: fixed;
+        top: 0.5rem;
+        z-index: 99;
+        font-size: 2rem;
+        left: 50%;
+        background: #000000;
+        border-radius: 1rem;
+        color: white;
+        left: 88%;
+        cursor: pointer;
+    }
+    ion-card-header{
+        ion-card-subtitle {
+            font-size: 0.8rem;
+            margin-top: 0.6rem;
+            /* margin-bottom: 0.5rem; */
+        }
+    }
+    ion-card-content{
+        h2 {
+            font-size: 1rem !important;
+            color: black;
+            margin-bottom: 0.6rem;
+            padding-bottom: 0rem;
+            padding-top: 1rem !important;
+        }
+    }
+}

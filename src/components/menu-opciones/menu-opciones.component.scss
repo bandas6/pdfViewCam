@@ -1,0 +1,82 @@
+
+ion-icon.hydrated {
+    padding: 0.5rem;
+    font-size: 2.1rem !important;
+    font-family: "KievitOT";
+    color: var(--errores);
+    padding-right: 0;
+}
+
+ion-title.title-default.hydrated{
+    padding: 0;
+    width: auto;
+    font-weight: bold;
+    font-size: 2.1rem !important;
+    font-family: "KievitOT";
+    color: var(--textos);
+}
+
+
+ion-list.list-list-inset.hydrated {
+    margin: 0;
+    padding: 0;
+}
+
+div#navbarDropdown {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+
+ion-text.hydrated {
+    color: white;
+}
+
+
+ion-content.ion-padding.content-ltr.hydrated {
+    --background: linear-gradient(180deg, rgb(0, 101, 171) 0%, rgb(83, 185, 205) 100%);
+}
+
+ion-list.ios.list-ios.hydrated.list-md {
+    padding: 0;
+    margin: 0;
+}
+
+ion-list{
+    background: transparent !important;
+}
+
+ion-item.item-has-start-slot.item.ios.item-fill-none.in-list.hydrated.item-label.ion-activatable.ion-focusable {
+    --background: none;
+    width: 112%;
+}
+
+ion-label{
+    color: white !important;
+}
+
+ion-toolbar.toolbar-title-default.ion-color.ion-color-tertiary.in-toolbar{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+.toogle_tolbar {
+    --background: rgb(0, 101, 171) 0%
+}
+
+ion-item {
+    --border-color: transparent;
+}
+
+ion-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3.2rem;
+    --background: transparent;
+}

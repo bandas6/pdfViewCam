@@ -1,0 +1,15 @@
+<ion-menu-toggle auto-hide="false" *ngIf="tabMenu === 'primero'">
+
+  <ion-item (click)="editarUsuario()" class="item-has-start-slot item ios item-fill-none in-list hydrated item-label"
+    role="listitem">
+    <ion-icon name="create-outline" slot="start" aria-label="mail" role="img" class="ios hydrated"></ion-icon>
+    <ion-label class="sc-ion-label-ios-h sc-ion-label-ios-s ios hydrated">Editar tu usuario</ion-label>
+  </ion-item>
+
+  <ion-item (click)="cerrarSesion()" class="item-has-start-slot item ios item-fill-none in-list hydrated item-label"
+    role="listitem">
+    <ion-icon name="log-out-outline" slot="start" aria-label="mail" role="img" class="ios hydrated"></ion-icon>
+    <ion-label class="sc-ion-label-ios-h sc-ion-label-ios-s ios hydrated">Salir</ion-label>
+  </ion-item>
+
+</ion-menu-toggle>
